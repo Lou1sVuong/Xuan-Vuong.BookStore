@@ -1,0 +1,40 @@
+.product div {
+    background-color: var(--main-color);
+}
+.product {
+    margin: 3rem 0;
+
+    display: grid;
+    grid-template-columns: 40rem 1fr 1fr;
+    grid-template-rows: 40rem 2fr 2fr;
+    font-size: 1.6rem;
+
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+}
+
+.second-img-product {
+    grid-column: 1 /2;
+    grid-row: 2/3;
+
+}
+
+.info-product {
+    grid-column: 2 /4;
+    grid-row: 1/2;
+}
+
+.amount-product {
+    grid-column: 2 /4;
+    grid-row: 2/3;
+}
+
+.like-share-product {
+    grid-column: 1 /2;
+    grid-row: 3/4;
+}
+
+.cart-product {
+    grid-column: 2 /4;
+    grid-row: 3/4;
+}

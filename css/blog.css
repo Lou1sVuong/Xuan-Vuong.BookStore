@@ -1,0 +1,75 @@
+@import url(./main.css);
+
+
+.container {
+    margin: 5em 9%;
+}
+
+.container h1 {
+    font-size: 3.5rem;
+}
+
+.container p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+    
+}
+
+.bot-shape {
+    height: 0.4rem;
+    width: 100%;
+
+    background-color: var(--main-color);
+}
+
+.blogs .heading p {
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    color: var(--black);
+    background: #fff;
+    border: var(--border);
+}
+
+.blogs .blogs-slider .box{
+    margin:2rem 0;
+    border:var(--border);
+
+}
+
+.blogs .blogs-slider .box:hover{
+    border:var(--border-hover);
+}
+
+.blogs .blogs-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blogs .blogs-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blogs .blogs-slider .box .content{
+    padding:1rem;
+}
+
+.blogs .blogs-slider .box .content h3{
+    font-size: 2.2rem;
+    color:var(--black);
+}
+
+.blogs .blogs-slider .box .content p{
+    font-size: 1.4rem;
+    color:var(--light-color);
+    padding:1rem 0;
+    line-height: 2;
+}
